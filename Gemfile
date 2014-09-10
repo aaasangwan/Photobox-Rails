@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
-
+group :assets do
+     gem 'twitter-bootstrap-rails'
+end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 
