@@ -1,4 +1,7 @@
 Dbms::Application.routes.draw do
+
+  post 'image/add' => 'image#add_image'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
